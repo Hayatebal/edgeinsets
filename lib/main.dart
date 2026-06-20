@@ -27,7 +27,7 @@ class EdgeInsetsExamplesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('EdgeInsets Examples'),
+        title: const Text('BALILA-ON'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
