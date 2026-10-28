@@ -42,10 +42,12 @@ class EdgeInsetsExamplesPage extends StatelessWidget {
               ),
               const SizedBox(height: 22),
               Container(
+                width: double.infinity,
                 padding: const EdgeInsets.symmetric(
                   horizontal: 40,
                   vertical: 10,
                 ),
+                alignment: Alignment.center,
                 color: Colors.yellow,
                 child: const Text(
                   'EdgeInsets.symmetric(horizontal: 40, vertical: 10)',
@@ -67,12 +69,14 @@ class EdgeInsetsExamplesPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 22),
-              Container(
-                padding: const EdgeInsets.fromLTRB(10, 20, 30, 40),
-                color: Colors.green,
-                child: const Text(
-                  'EdgeInsets.fromLTRB(10, 20, 30, 40)',
-                  style: TextStyle(color: Colors.white, fontSize: 10),
+              Center(
+                child: Container(
+                  padding: const EdgeInsets.fromLTRB(10, 20, 30, 40),
+                  color: Colors.green,
+                  child: const Text(
+                    'EdgeInsets.fromLTRB(10, 20, 30, 40)',
+                    style: TextStyle(color: Colors.white, fontSize: 10),
+                  ),
                 ),
               ),
             ],
